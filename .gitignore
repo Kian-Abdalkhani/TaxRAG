@@ -1,6 +1,8 @@
+#chroma_db
+chroma_langchain_db
+
 # IntelliJ project files
-.idea
-.idea/
+/.idea
 *.iml
 out
 gen
