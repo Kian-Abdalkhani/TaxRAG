@@ -3,6 +3,7 @@ chroma_langchain_db
 
 # IntelliJ project files
 /.idea
+/.idea/*.xml
 *.iml
 out
 gen
