@@ -9,7 +9,7 @@ model = OllamaLLM(
 template = """
 You are an expert in answering questions related to the US tax code
 
-Here is the US tax code: {tax_code}
+Here is the US tax code (be sure to quote the tax code in your answers): {tax_code}
 
 Here is the question to answer: {question}
 """
