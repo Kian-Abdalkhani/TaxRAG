@@ -4,7 +4,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os
 
-db_location = "./chroma_langchain_db"
+db_location = "../chroma_langchain_db"
 
 embeddings = OllamaEmbeddings(
     model="nomic-embed-text"
